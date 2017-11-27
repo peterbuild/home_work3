@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class practic_task_3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Input first array size: "); //запрашиваем размер
+        System.out.println("Input first array size: "); //запрашиваем размер 1
         int size = in.nextInt();
         //Вводим массив
         int[] array = new int[size];
@@ -11,7 +11,7 @@ public class practic_task_3 {
             System.out.println("Input " + (i + 1) + " element of " + size);
             array[i] = in.nextInt();
         }
-        System.out.println("Input second array size: "); //запрашиваем размер
+        System.out.println("Input second array size: "); //запрашиваем размер 2
         int size1 = in.nextInt();
         //Вводим массив
         int[] array1 = new int[size1];
@@ -30,7 +30,7 @@ public class practic_task_3 {
                      arraySum[i] = array1[i];//если елемент отсутствует в первом массиве
             }
             //вывод
-        System.out.println("Summ first and second array: ");
+        System.out.println("Sum first and second array: ");
         for (int i:arraySum)
             System.out.print(i + " ");
     }
