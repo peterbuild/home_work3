@@ -22,7 +22,7 @@ public class task_1_2 {
             if (array[i]==5) rep5++; // считаем повторение 5
         }
 
-        //Arrays.sort(array); //Сортировка -----------------------------
+        //Arrays.sort(array); //Сортировка встроенным методом-----------------------------
 
         for (int i = array.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
@@ -35,8 +35,8 @@ public class task_1_2 {
         }
         //---------------------------------------------------------------
         System.out.println("Sorted array: ");
-        for (int i = 0; i < size; i++)
-            System.out.print(array[i] + " "); //Выводим масив в консоль
+        for (int i:array)
+            System.out.print(i + " "); //Выводим масив в консоль
         System.out.println();
         //Макс число повторений елементов задание №2-------------------------
         int[] array_counter = new int[array.length]; //создаем вспомогательный массив
