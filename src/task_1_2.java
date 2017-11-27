@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class task_1 {
+public class task_1_2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Input array size: "); //запрашиваем размер
