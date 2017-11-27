@@ -13,8 +13,8 @@ public class practic_task_6 {
             for (int j = 0; j < w; j++) {
                 array[0][j] = bb; //первая строка
                 array[i][0] = bb; //первый столбец
-                array[h-1][j] = bb;//последняя строка
-                array[i][w-1] = bb;//послюстолбец
+                array[h - 1][j] = bb;//последняя строка
+                array[i][w - 1] = bb;//послюстолбец
                 int body = 1000; //тело матрицы, начинается с 1000
                 for (int ii = 1; ii < h - 1; ++ii) { //цикл для заполнения тела
                     for (int jj = 1; jj < w - 1; ++jj)
